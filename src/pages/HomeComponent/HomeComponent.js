@@ -27,6 +27,7 @@ export const HomeComponent = () => {
           alt="weather_icon"
           className="weather_icon"
         />
+
         {tempState ? (
           <div className="tempdiv">
             <div className="notext">87</div>
@@ -60,6 +61,7 @@ export const HomeComponent = () => {
             </div>
           </div>
         )}
+
         <div className="temptext5">Mostly Sunny</div>
       </div>
       <div className="line-copy" />
